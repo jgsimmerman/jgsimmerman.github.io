@@ -1,0 +1,38 @@
+body{
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0 10px;
+  background-color: #eeeeee;
+}
+
+h1,h2,h3{
+  line-height: 1.2
+}
+
+header{
+  font-weight: bold;
+}
+
+
+#navbar header{
+    font-size: 26px;
+}
+
+code{
+  font-size: .6em;  
+}
+
+footer{
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  #navbar{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+  }
+}
